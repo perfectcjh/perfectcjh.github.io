@@ -4,7 +4,7 @@
 baseurl:
 url: http://mazhuang.org
 date_format: "ordinal"
-title: 这里是title
+title: Perfectcjh
 subtitle:  这里是subtitle
 description: 这里是description
 keywords: keywords1, keywords2, keywords3, keywords4
@@ -16,12 +16,12 @@ side_bar_repo_limit: 1
 # ---------------- #
 #      Author      #
 # ---------------- #
-author: author袁世开
-organization: organization俣哈
-organization_url: organization_url你吃不吃
-github_username: oxiangyang
+author: 陈大帅
+organization: 网体健身
+organization_url: http://www.wangtijianshen.com/
+github_username: perfectcjh
 location: Shanghai, China
-email: testyuan@gmail.com
+email: perfectcjh@foxmail.com
 
 # ---------------- #
 #    Navigation    #
