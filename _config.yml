@@ -1,39 +1,101 @@
-# Site settings
-name: Less Or More
-email: luoyan35714@126.com
-author: Freud Kang
-url: http://www.hifreud.com
-resume_site: http://www.hifreud.com/Resume.io/
-github: https://github.com/luoyan35714/
-baseurl: "/LessOrMore"
-description: Actually, less is more!
-meta_description: 康志华;个人博客;学而不思则罔;思而不学则殆;生命不止;折腾不休
-motto: It's our wits that make us men.
-banner: 学而不思则罔，思而不学则殆。
+# ---------------- #
+#   Main Configs   #
+# ---------------- #
+baseurl:
+url: http://mazhuang.org
+date_format: "ordinal"
+title: 这里是title
+subtitle:  这里是subtitle
+description: 这里是description
+keywords: keywords1, keywords2, keywords3, keywords4
+favicon: /favicon.ico
+timezone: Asia/Shanghai
+encoding: "utf-8"
+side_bar_repo_limit: 1
 
-#permalink: /:categories/:year/:month/:day/:title/
-permalink: /:year/:month/:day/:title/
-paginate: 10
+# ---------------- #
+#      Author      #
+# ---------------- #
+author: author袁世开
+organization: organization俣哈
+organization_url: organization_url你吃不吃
+github_username: oxiangyang
+location: Shanghai, China
+email: testyuan@gmail.com
 
-exclude: ['README.md', 'Gemfile.lock', 'Gemfile', 'Rakefile']
+# ---------------- #
+#    Navigation    #
+# ---------------- #
+navs:
+  -
+    href: /
+    label: 首页test
 
-github_username: luoyan35714
-highlighter: Pygments
+  -
+    href: /categories/
+    label: 分类test
 
-# Build settings
+  -
+    href: /wiki/
+    label: 维基test
+
+  -
+    href: /links/
+    label: 链接test
+
+  -
+    href: /about/
+    label: 关于test
+
+# ---------------- #
+#       RSS        #
+# ---------------- #
+subscribe_rss: /feed.xml
+
+# ---------------- #
+#      Jekyll      #
+# ---------------- #
 markdown: kramdown
+kramdown:
+    input: GFM
+highlighter: rouge
+paginate: 8
+lsi: false
+quiet: false
+excerpt_separator: "\n\n"
+permalink: /:year/:month/:day/:title/
+gems:
+    - jekyll-github-metadata
+    - rouge
+#     - jekyll-html-pipeline
+    - jekyll-paginate
+    - jekyll-sitemap
+    - jekyll-feed
+    - jemoji
+#     - jekyll-mentions
+collections:
+    wiki:
+        output: true
+        permalink: /wiki/:path/
 
-baidu_analysis: 94be4b0f9fc5d94cc0d0415ea6761ae9
+repository: mzlogin/mzlogin.github.io
 
-FB:
-  comments :
-    provider : duoshuo
-    duoshuo:
-        short_name : luoyan35714
-    disqus :
-        short_name : freudkang
-    # facebook :
-    #   appid : 123
-    #   num_posts: 5
-    #   width: 580
-    #   colorscheme: light
+# ---------------- #
+#      Comments    #
+# ---------------- #
+# support provider: disqus, netease_gentie
+comments_provider: netease_gentie
+# !!!重要!!! 请修改下面这些信息为你自己申请的
+# !!!Important!!! Please modify infos below to yours
+disqus_username: mzlogin
+netease_gentie_key: 560ed243b708465d82d5a0a5f3b83da1
+# 在使用网易云跟帖时可点击显示 Disqus
+lazy_load_disqus : true
+
+# ---------------- #
+#    Analytics     #
+# ---------------- #
+google:
+    analytics_id: UA-80669434-1
+
+# theme: jekyll-theme-cayman
