@@ -5,7 +5,7 @@ baseurl:
 url: http://mazhuang.org
 date_format: "ordinal"
 title: Perfectcjh
-subtitle:  这里是subtitle
+subtitle:  既然选择了远方，便只顾风雨兼程
 description: 这里是description
 keywords: keywords1, keywords2, keywords3, keywords4
 favicon: /favicon.ico
@@ -29,23 +29,23 @@ email: perfectcjh@foxmail.com
 navs:
   -
     href: /
-    label: 首页test
+    label: 首页
 
   -
     href: /categories/
-    label: 分类test
+    label: 分类
 
   -
     href: /wiki/
-    label: 维基test
+    label: 维基
 
   -
     href: /links/
-    label: 链接test
+    label: 链接
 
   -
     href: /about/
-    label: 关于test
+    label: 关于
 
 # ---------------- #
 #       RSS        #
