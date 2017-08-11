@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 哎，不一样的人生
-categories: Blog
+title: 哎，不一样的
+categories: lalal
 description: 又一次的旅程， 给我的是不一样的感受
 keywords: test
 ---
