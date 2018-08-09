@@ -1,7 +1,7 @@
 # Site settings 配置站点
 title: 'Perfectcjh的个人博客'
 description: '既然选择了远方，边只顾风雨兼程'
-keyword: '陈金恒, 陈金恒的个人博客, 陈金恒的博客, iOS, iOS开发, javascript, python'
+keyword: 'Perfectcjh, Perfectcjh的个人博客, Perfectcjh的博客, iOS, iOS开发, javascript, python'
 url: 'https://perfectcjh.github.io/' # your host
 
 # if you don't need baseurl, you should leave this value blank.
@@ -17,10 +17,10 @@ footer:
   since: 2016
 
 # Author 配置博主信息
-author: '陈金恒'
+author: 'Perfectcjh'
 nickname: 'Perfectcjh'
-bio: 'iOS开发者，热爱技术'
-avatar: '/assets/img/profile.png'
+bio: 'iOS程序猿，技术追逐者'
+avatar: '/assets/img/headerIcon.png'
 
 # Search
 search: true
@@ -49,7 +49,7 @@ postPatterns: 'circuitBoard'
 # SNS settings 配置社交网站
 # url: email, weibo, zhihu, twitter, instagram, juejin, github, douban, facebook, dribble, uicn, jianshu, medium, linkedin
 sns:
-  email: 'perfectcjh@foxmail.com'
+  email: '//perfectcjh@foxmail.com'
   weibo: '//weibo.com/perfectcjh'
   github: '//github.com/perfectcjh'
   
