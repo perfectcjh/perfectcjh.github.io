@@ -1,6 +1,6 @@
 # Site settings 配置站点
-title: '陈金恒的个人博客'
-description: '昵称悟空，千禧一代，前端开发者/伪极客/灵魂摄影师，热爱技术&设计。很高兴能在这里与你分享我对技术和生活的思考。'
+title: 'Perfectcjh的个人博客'
+description: '既然选择了远方，边只顾风雨兼程'
 keyword: '陈金恒, 陈金恒的个人博客, 陈金恒的博客, iOS, iOS开发, javascript, python'
 url: 'https://perfectcjh.github.io/' # your host
 
@@ -14,7 +14,7 @@ nav:
 
 # Footer
 footer:
-  since: 2017
+  since: 2016
 
 # Author 配置博主信息
 author: '陈金恒'
@@ -49,12 +49,14 @@ postPatterns: 'circuitBoard'
 # SNS settings 配置社交网站
 # url: email, weibo, zhihu, twitter, instagram, juejin, github, douban, facebook, dribble, uicn, jianshu, medium, linkedin
 sns:
+  email: 'perfectcjh@foxmail.com'
   weibo: '//weibo.com/perfectcjh'
   github: '//github.com/perfectcjh'
+  
 
 # Tags 设置标签
 recommend-tags: true # whether or not display recommend-tags on the sidebar
-recommend-condition-size: 10 # a tag will be recommended if the size of it is more than this value
+recommend-condition-size: 12 # a tag will be recommended if the size of it is more than this value
 
 # Build settings
 paginate: 6
