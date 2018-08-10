@@ -2,7 +2,7 @@
 title: 'Perfectcjh的个人博客'
 description: '既然选择了远方，边只顾风雨兼程'
 keyword: 'Perfectcjh, Perfectcjh的个人博客, Perfectcjh的博客, iOS, iOS开发, javascript, python'
-url: 'https://perfectcjh.github.io/' # your host
+url: 'https://perfectcjh.top/' # your host
 
 # if you don't need baseurl, you should leave this value blank.
 baseurl: ''
@@ -52,6 +52,7 @@ sns:
   email: '//perfectcjh@foxmail.com'
   weibo: '//weibo.com/perfectcjh'
   github: '//github.com/perfectcjh'
+  twitter: '//twitter.com/perfectcjh'
   
 
 # Tags 设置标签
