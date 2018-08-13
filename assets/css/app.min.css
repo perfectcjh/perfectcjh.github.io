@@ -202,7 +202,7 @@ a {
 }
 
 .home-banner h2 {
-    padding-top: 60px;
+    padding-top: 80px;
     line-height: 38px;
     font-size: 42px;
     font-family: Arial, 'Hiragino Sans GB', 'Microsoft YaHei', 'WenQuanYi Micro Hei', sans-serif;
@@ -724,7 +724,7 @@ a {
 }
 
 .post-header .post-tags {
-    margin: 100px 0 16px
+    margin: 100px 0 8px
 }
 
 .post-header .post-tags .post-tag {
@@ -763,7 +763,7 @@ a {
 }
 
 .post-header .post-meta {
-    margin-top: 32px
+    margin-top: 16px
 }
 
 .post-header .post-meta .post-meta-item {
@@ -1021,13 +1021,13 @@ a {
 }
 
 .tags-banner {
-    height: 300px;
+    height: 260px;
     text-align: center
 }
 
 .tags-banner h2 {
     font-size: 36px;
-    line-height: 300px
+    line-height: 260px
 }
 
 .tags-content {
@@ -1427,7 +1427,7 @@ a {
         margin-top: 0
     }
     .tags-banner {
-        height: 300px
+        height: 260px
     }
     .tags-list {
         padding: 0 0 24px
